@@ -2,10 +2,12 @@
 using namespace std;
 
 int main() {
-	int v = 5;
-	int t = 45;
-	int a = 2;
-	int s = (v * t) + ((a * (t * t)) / 2);
-	cout << s << endl; 
-}
+	int C = 16;
+	int pi = 3.14;
+	int double_pi = 2 * pi;
+	double R = static_cast<double>(C) / double_pi;
+	int double_R = 2 * R;
+	double S = pi * double_R;
+	cout << S << endl;
 
+}
