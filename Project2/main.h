@@ -6,6 +6,6 @@ int main() {
 	int t = 45;
 	int a = 2;
 	int s = (v * t) + ((a * (t * t)) / 2);
-	cout << s << endl;
+	cout << s << endl; 
 }
 
